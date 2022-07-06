@@ -4,14 +4,21 @@ body {
 }
 
 .header {
-    padding: 10px;
-    background-color: aqua;
+    padding: 5px;
+    background-color: rgb(154, 175, 175);
 
 }
 
+.logo{
+    margin: 15px;
+    padding: 5px;
+}
+
 .title {
+    font-size: 20px;
     display: flex;
     justify-content: center;
+    padding: 5px;
     color: rgb(46, 217, 3);
 }
 
@@ -21,20 +28,19 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    background-color: rgb(240, 181, 80);
-    max-width: 100%;
+    background-color: rgb(34, 105, 160);
     min-height: 360px;
 }
 
-.buttons {
+.buttons  {
     width: 350px;
-    background-color: darkkhaki;
     margin: 0 auto;
     margin-top: 20px;
     display: flex;
 }
-
+ 
 .btns {
+  
     width: 150px;
     border-radius: 50px;
     background-color: aqua;
@@ -44,11 +50,17 @@ body {
     font-size: 20px;
 }
 
+.atencao{
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+}
+
 
 .footer {
+width: 100%;
     background-color: rgb(239, 222, 222);
-    height: 120px;
-    margin-top: 15px;
 }
 
 .text_footer  {
@@ -64,11 +76,7 @@ body {
 }
 
 .social_list li {
-    margin: 10px;
+    margin: 5px;
     cursor: pointer;
 }
 
-.social_list li:hover {
-    color: yellow;
-
-}

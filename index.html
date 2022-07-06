@@ -8,25 +8,37 @@
     <title>Jogo_da_Forca</title>
     <link rel="stylesheet" href="style.css">
 </head>
+    <!-- Colocar dentro da header -->
 
 <body>
 
 
     <header class="header">
-        <div>
-            <p>LOGO</p>
+       <div class="logo">
+        <img src="./img/github_icon.png" alt="Logo" >
+    </div>
+        <div class="title">
+            <h1>JOGO DA FORCA</h1>
         </div>
+    
     </header>
 
-    <div class="title">
-        <h1>JOGO DA FORCA</h1>
-    </div>
+   
 
-
+    
     <container class="container">
-        <p>espaço para dev forca </p>
+
+        <div id="aparecer_forca" class="canvas">
+            <canvas id="forca" height="860px" width="1200px"></canvas>
+        <div class="sublinhado">
+
     </container>
 
+    
+<div>
+    <span class="atencao" >Max.10 letras</span>
+
+</div>
     <div class="buttons">
         <button class="btns">
             jogar
@@ -59,7 +71,7 @@
         </div>
             <p class="text_footer" >Lues &copy; 2022</p>
     </footer>
-
+<script src="/Rascunho_canvas/jogoDaForca.js"></script>
 </body>
 
 </html>
