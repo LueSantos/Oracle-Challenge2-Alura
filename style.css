@@ -1,73 +1,102 @@
-body {
-    margin: 0;
+*{  margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.header {
-    padding: 5px;
-    background-color: rgb(154, 175, 175);
-
+body {
+    background-image: url("./img/bg_tela.jpg");
+    background-repeat: no-repeat;
 }
 
-.logo{
-    margin: 15px;
-    padding: 5px;
-}
+
+
+/* .logo {
+    padding-top: 10px;
+    margin-inline: 15px;
+} */
 
 .title {
-    font-size: 20px;
+   
     display: flex;
     justify-content: center;
-    padding: 5px;
-    color: rgb(46, 217, 3);
+    font-size: 30px ;
+    padding: 15px;
+    color:#d6a34a;
 }
 
 
-.container {
+/*  .page {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    background-color: rgb(34, 105, 160);
-    min-height: 360px;
+    
+   
+}  */
+
+.buttons {
+   display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 550px;
+    margin: 245px 450px ;
+ }
+
+
+
+.btn-grad {
+    background-image: linear-gradient(to right, #d6a34a 0%, #DDEFBB 51%, #fbe5e5 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;
+    box-shadow: 0 0 10px greenyellow;
+    border-radius: 20px;
+    display: block;
+    cursor: pointer;
+
 }
 
-.buttons  {
-    width: 350px;
-    margin: 0 auto;
-    margin-top: 20px;
-    display: flex;
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: rgb(227, 121, 0);
+    text-decoration: none;
 }
- 
+
+
+
 .btns {
-  
     width: 150px;
     border-radius: 50px;
-    background-color: aqua;
     color: rgb(7, 58, 36);
     margin: 10px;
     padding: 3px;
     font-size: 20px;
 }
 
-.atencao{
+.atencao {
     width: 350px;
-    margin: 0 auto;
+    margin-inline: 100px;
     margin-top: 20px;
     display: flex;
 }
 
 
 .footer {
-width: 100%;
-    background-color: rgb(239, 222, 222);
+
+    background-color: #e3e3e3;
 }
 
-.text_footer  {
+.text_footer {
+    padding-bottom: 10px;
     text-align: center;
     font-size: 24px;
     color: rgb(9, 9, 9);
 }
+
 
 .social_list {
     display: flex;
@@ -76,7 +105,7 @@ width: 100%;
 }
 
 .social_list li {
-    margin: 5px;
+    margin-top: 15px;
+    margin-inline: 5px;
     cursor: pointer;
 }
-

@@ -8,70 +8,61 @@
     <title>Jogo_da_Forca</title>
     <link rel="stylesheet" href="style.css">
 </head>
-    <!-- Colocar dentro da header -->
+<!-- Colocar dentro da header -->
 
 <body>
 
-
     <header class="header">
-       <div class="logo">
-        <img src="./img/github_icon.png" alt="Logo" >
-    </div>
+        <div class="logo">
+            <img src="./img/github_icon.png" alt="Logo">
+        </div>
         <div class="title">
             <h1>JOGO DA FORCA</h1>
         </div>
-    
     </header>
 
-   
 
-    
-    <container class="container">
+    <main class="container">
 
-        <div id="aparecer_forca" class="canvas">
-            <canvas id="forca" height="860px" width="1200px"></canvas>
-        <div class="sublinhado">
+        <!--   <div id="aparecer_forca" class="canvas">  -->
+        <canvas id="forca" width="1200px" height="480px"></canvas>
+        <!-- <div class="sublinhado"> -->
 
-    </container>
+            <div><p class="atencao">colocar um texo aqui !</p></div>
+            <div class="buttons_main">
+                <button class="btns">
+                    Novo jogo
+                </button>
+                <button class="btns">
+                    Sair
+                </button>
+            </div>
+      
+    </main>
+    <footer hidden class="footer">
+        <div>
 
-    
-<div>
-    <span class="atencao" >Max.10 letras</span>
-
-</div>
-    <div class="buttons">
-        <button class="btns">
-            jogar
-        </button>
-
-        <button class="btns">
-            Nova palavra
-        </button>
-    </div>
-
-
-
-    <footer class="footer">
-            <div>
-               
             <ul class="social_list">
-              
                 <li class="social_list li">
                     <a href="https://www.github.com/LueSantos" target="_blank">
                         <img src="./img/github_icon.png" alt="Perfil do Github ">
                     </a>
                 </li>
-                <li  class="social_list li">
+                <li class="social_list li">
                     <a href="https://www.linkedin.com/in/luesantos" target="_blank">
                         <img src="./img/linkedin_icon.png" alt="Perfil do Linkedin ">
                     </a>
                 </li>
             </ul>
-           
+
         </div>
-            <p class="text_footer" >Lues &copy; 2022</p>
+        <p class="text_footer"> &copy; 2022 Jogo da Forca </p>
     </footer>
-<script src="/Rascunho_canvas/jogoDaForca.js"></script>
+
+
+
+    <script src="/canvas.js"></script>
+
 </body>
 
 </html>
